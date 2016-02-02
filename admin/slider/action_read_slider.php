@@ -12,7 +12,7 @@ foreach ($sliders as $key => $value) {
     $sliders[$key]['actions'] = "{'id':$key, 'title':'$value[title]'}";
     $sliders[$key]['id'] = $key;
 
-    $sliders[$key]['content'] = esc_textarea($sliders[$key]['content']);
+    $sliders[$key]['title'] = esc_textarea($sliders[$key]['title']);
 
     if (!isset($sliders[$key]['show_on'])) $sliders[$key]['show_on'] = 'All';
     if (!isset($sliders[$key]['published'])) $sliders[$key]['published'] = true;

@@ -14,7 +14,7 @@ sort($category);
     <div class="container">
         <div class="center">
            <h2><?php echo $portfolio->name ?></h2>
-           <p class="lead"><?php echo $portfolio->description ?></p>
+           <!-- <p class="lead"><?php echo $portfolio->description ?></p> -->
         </div>
 
         <ul class="portfolio-filter text-center">
@@ -29,8 +29,9 @@ sort($category);
                 <?php
                 reset($projects);
                 foreach ($projects as $project):
-                    $images = $wpdb->get_results( $wpdb->prepare("SELECT * FROM `". $wpdb->prefix . "wp_corlate_portfolio_projects` WHERE project_id=%d AND published=1", $project->id ), object );
+                   
                     $project_category = explode(',', strtolower($project->category));
+                    
                     if (is_array($project_category))
                         $project_category = implode(' ', $project_category);
                 ?>
