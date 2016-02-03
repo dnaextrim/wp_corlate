@@ -77,7 +77,7 @@ if ( ! function_exists( 'corlate_setup' ) ) {
 			'default-image' => '',
 		) ) );
 	}
-} // _s_setup
+} // corlate_setup
 
 add_action( 'after_setup_theme', 'corlate_setup' );
 
@@ -133,8 +133,9 @@ function corlate_scripts() {
 	wp_enqueue_script( 'corlate-jquery', get_template_directory_uri() . '/js/jquery.js' );
 	wp_enqueue_script( 'corlate-bootstrap', get_template_directory_uri() . '/js/bootstrap.min.js', array(), false, true );
 	wp_enqueue_script( 'corlate-prettyPhoto', get_template_directory_uri() . '/js/jquery.prettyPhoto.js', array(), false, true );
-	if ($is_portfolio)
+	if ($is_portfolio) {
 		wp_enqueue_script( 'corlate-isotope', get_template_directory_uri() . '/js/jquery.isotope.min.js', array(), false, true );
+	}
 	wp_enqueue_script( 'corlate-main', get_template_directory_uri() . '/js/main.js', array(), false, true );
 	wp_enqueue_script( 'corlate-wow', get_template_directory_uri() . '/js/wow.min.js', array(), false, true );
 	
