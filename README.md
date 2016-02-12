@@ -5,9 +5,8 @@ WP Corlate Themes is converted from Corlate Themes HTML, with some fiture includ
 
 ![WP Corlate](https://github.com/dnaextrim/wp_corlate/blob/master/images/portfolio/wp_corlate.jpg?raw=true)
 
-##DEMO:
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/GQB9Q89o2gU" frameborder="0" allowfullscreen></iframe>
+##DEMO VIDEO:
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/GQB9Q89o2gU/0.jpg)](http://www.youtube.com/watch?v=GQB9Q89o2gU)
 
 ## Portfolio Page:
 ![WP Corlate](https://github.com/dnaextrim/wp_corlate/blob/master/images/portfolio/portfolio_front.jpg?raw=true)
