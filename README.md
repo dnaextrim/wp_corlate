@@ -5,7 +5,11 @@ WP Corlate Themes is converted from Corlate Themes HTML, with some fiture includ
 
 ![WP Corlate](https://github.com/dnaextrim/wp_corlate/blob/master/images/portfolio/wp_corlate.jpg?raw=true)
 
+<<<<<<< HEAD
 ##DEMO VIDEO:
+=======
+##DEMO:
+>>>>>>> origin/master
 [![WP Corlate Demo](https://img.youtube.com/vi/GQB9Q89o2gU/0.jpg)](https://www.youtube.com/watch?v=GQB9Q89o2gU)
 
 ## Portfolio Page:
