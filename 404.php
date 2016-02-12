@@ -10,15 +10,15 @@
 get_header(); ?>
 
 <section id="blog" class="container">
-	<div class="center">
-        <h2><?php bloginfo( 'name' ); ?></h2>
-        <p class="lead"><?php echo $description = get_bloginfo( 'description', 'display' ); ?></p>
+    <div class="center">
+        <h2><?php bloginfo('name'); ?></h2>
+        <p class="lead"><?php echo $description = get_bloginfo('description', 'display'); ?></p>
     </div>
 
-	<div class="blog">
+    <div class="blog">
         <div class="row">
             <div class="col-md-8">
-				<p><?php esc_html_e( 'It looks like nothing was found at this location. Maybe try one of the links below or a search?', '_s' ); ?></p>
+                <p><?php esc_html_e('It looks like nothing was found at this location. Maybe try one of the links below or a search?', '_s'); ?></p>
 
                 <!--<ul class="pagination pagination-lg">
                     <li><a href="#"><i class="fa fa-long-arrow-left"></i>Previous Page</a></li>
@@ -32,8 +32,8 @@ get_header(); ?>
             </div><!--/.col-md-8-->
 
             <aside class="col-md-4">
-				<?php get_sidebar(); ?>
-			</aside>
+                <?php get_sidebar(); ?>
+            </aside>
         </div><!--/.row-->
     </div>
 

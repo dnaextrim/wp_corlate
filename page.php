@@ -14,7 +14,7 @@
 
 get_header(); ?>
 
-<?php 
+<?php
 if (get_option('wp_corlate_enable_slider') == true)
     include("slider.php");
 
@@ -27,27 +27,27 @@ if (preg_match('/\\[wp_corlate_portfolio id=[0-9]+\\]/', $post->post_content, $m
 
 <section id="blog" class="container">
     <?php if (!$is_portfolio): ?>
-	<div class="center">
-        <h2><?php bloginfo( 'name' ); ?></h2>
-        <p class="lead"><?php echo $description = get_bloginfo( 'description', 'display' ); ?></p>
-    </div>
+        <div class="center">
+            <h2><?php bloginfo('name'); ?></h2>
+            <p class="lead"><?php echo $description = get_bloginfo('description', 'display'); ?></p>
+        </div>
     <?php endif ?>
-	<div class="blog">
+    <div class="blog">
         <div class="row">
             <div class="col-md-8">
 
-            	<?php while ( have_posts() ) : the_post(); ?>
+                <?php while (have_posts()) : the_post(); ?>
 
-					<?php get_template_part( 'template-parts/content', 'page' ); ?>
+                    <?php get_template_part('template-parts/content', 'page'); ?>
 
-					<?php
-						// If comments are open or we have at least one comment, load up the comment template.
-						if ( comments_open() || get_comments_number() ) :
-							comments_template();
-						endif;
-					?>
+                    <?php
+                    // If comments are open or we have at least one comment, load up the comment template.
+                    if (comments_open() || get_comments_number()) :
+                        comments_template();
+                    endif;
+                    ?>
 
-				<?php endwhile; // End of the loop. ?>
+                <?php endwhile; // End of the loop. ?>
 
                 <!--<ul class="pagination pagination-lg">
                     <li><a href="#"><i class="fa fa-long-arrow-left"></i>Previous Page</a></li>
@@ -61,8 +61,8 @@ if (preg_match('/\\[wp_corlate_portfolio id=[0-9]+\\]/', $post->post_content, $m
             </div><!--/.col-md-8-->
 
             <aside class="col-md-4">
-				<?php get_sidebar(); ?>
-			</aside>
+                <?php get_sidebar(); ?>
+            </aside>
         </div><!--/.row-->
     </div>
 

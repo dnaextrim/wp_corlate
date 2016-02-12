@@ -1,9 +1,9 @@
 <?php
-require_once( '../../../../../wp-load.php' );
+require_once('../../../../../wp-load.php');
 
 if (!is_user_logged_in()) {
     header("HTTP/1.0 404 Not Authorized");
-    echo json_encode(array('error'=>'You Don\'t have authorized'));
+    echo json_encode(array('error' => 'You Don\'t have authorized'));
     exit();
 }
 

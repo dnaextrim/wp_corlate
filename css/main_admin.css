@@ -1,190 +1,189 @@
 #main-slider {
-  position: relative;
+    position: relative;
 }
 
 .no-margin {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 #main-slider .carousel .carousel-content {
-  margin-top: 50px;
-  margin-left: 50px;
-  height: 300px;
+    margin-top: 50px;
+    margin-left: 50px;
+    height: 300px;
 }
 
-#main-slider .carousel .slide-margin{
-  margin-top: 140px;
+#main-slider .carousel .slide-margin {
+    margin-top: 140px;
 }
 
 #main-slider .carousel h2 {
-  color: #fff;
+    color: #fff;
 }
 
 #main-slider .carousel .btn-slide {
-  padding: 8px 20px;
-  background: #c52d2f;
-  color: #fff;
-  border-radius: 4px;
-  margin-top: 25px;
-  display: inline-block;
+    padding: 8px 20px;
+    background: #c52d2f;
+    color: #fff;
+    border-radius: 4px;
+    margin-top: 25px;
+    display: inline-block;
 }
 
-#main-slider .carousel .slider-img{
-  text-align: right;
-  position: absolute;
+#main-slider .carousel .slider-img {
+    text-align: right;
+    position: absolute;
 }
-
 
 #main-slider .carousel .item {
-  background-position: 50%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  left: 0 !important;
-  opacity: 0;
-  top: 0;
-  position: absolute;
-  width: 100%;
-  display: block !important;
-  height: 400px;
-  -webkit-transition: opacity ease-in-out 500ms;
-  -moz-transition: opacity ease-in-out 500ms;
-  -o-transition: opacity ease-in-out 500ms;
-  transition: opacity ease-in-out 500ms;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: 0 !important;
+    opacity: 0;
+    top: 0;
+    position: absolute;
+    width: 100%;
+    display: block !important;
+    height: 400px;
+    -webkit-transition: opacity ease-in-out 500ms;
+    -moz-transition: opacity ease-in-out 500ms;
+    -o-transition: opacity ease-in-out 500ms;
+    transition: opacity ease-in-out 500ms;
 }
 
 #main-slider .carousel .item:first-child {
-  top: auto;
-  position: relative;
+    top: auto;
+    position: relative;
 }
 
 #main-slider .carousel .item.active {
-  opacity: 1;
-  -webkit-transition: opacity ease-in-out 500ms;
-  -moz-transition: opacity ease-in-out 500ms;
-  -o-transition: opacity ease-in-out 500ms;
-  transition: opacity ease-in-out 500ms;
-  z-index: 1;
+    opacity: 1;
+    -webkit-transition: opacity ease-in-out 500ms;
+    -moz-transition: opacity ease-in-out 500ms;
+    -o-transition: opacity ease-in-out 500ms;
+    transition: opacity ease-in-out 500ms;
+    z-index: 1;
 }
 
 #main-slider .prev,
 #main-slider .next {
-  position: absolute;
-  top: 50%;
-  background-color: #c52d2f;
-  color: #fff;
-  display: inline-block;
-  margin-top: -25px;
-  height: 40px;
-  line-height: 40px;
-  width: 40px;
-  line-height: 40px;
-  text-align: center;
-  border-radius: 4px;
-  z-index: 5;
+    position: absolute;
+    top: 50%;
+    background-color: #c52d2f;
+    color: #fff;
+    display: inline-block;
+    margin-top: -25px;
+    height: 40px;
+    line-height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 4px;
+    z-index: 5;
 }
 
 #main-slider .prev:hover,
 #main-slider .next:hover {
-  background-color: #000;
+    background-color: #000;
 }
 
 #main-slider .prev {
-  left: 10px;
+    left: 10px;
 }
 
 #main-slider .next {
-  right: 10px;
+    right: 10px;
 }
 
 #main-slider .carousel-indicators li {
-  width: 20px;
-  height: 20px;
-  background-color: #fff;
-  margin: 0 15px 0 0;
-  position: relative;
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    margin: 0 15px 0 0;
+    position: relative;
 }
 
 #main-slider .carousel-indicators li:after {
-  position: absolute;
-  content: "";
-  width: 24px;
-  height: 24px;
-  border-radius: 100%;
-  background: rgba(0, 0, 0, 0);
-  border: 1px solid #FFF;
-  left: -3px;
-  top: -3px;
+    position: absolute;
+    content: "";
+    width: 24px;
+    height: 24px;
+    border-radius: 100%;
+    background: rgba(0, 0, 0, 0);
+    border: 1px solid #FFF;
+    left: -3px;
+    top: -3px;
 }
 
-#main-slider .carousel-indicators .active{
-  width: 20px;
-  height: 20px;
-  background-color: #c52d2f;
-   margin: 0 15px 0 0;
-   border: 1px solid #c52d2f;
-   position: relative;
+#main-slider .carousel-indicators .active {
+    width: 20px;
+    height: 20px;
+    background-color: #c52d2f;
+    margin: 0 15px 0 0;
+    border: 1px solid #c52d2f;
+    position: relative;
 }
 
 #main-slider .carousel-indicators .active:after {
-  position: absolute;
-  content: "";
-  width: 24px;
-  height: 24px;
-  border-radius: 100%;
-  background: #c52d2f;
-  border: 1px solid #c52d2f;
-  left: -3px;
-  top: -3px;
+    position: absolute;
+    content: "";
+    width: 24px;
+    height: 24px;
+    border-radius: 100%;
+    background: #c52d2f;
+    border: 1px solid #c52d2f;
+    left: -3px;
+    top: -3px;
 }
 
 #carousel-slider {
-  position: relative;
+    position: relative;
 }
 
 #carousel-slider .carousel-indicators {
-  bottom: -25px;
+    bottom: -25px;
 }
 
 #carousel-slider .carousel-indicators li {
-  border: 1px solid #ffbd20;
+    border: 1px solid #ffbd20;
 }
 
 #carousel-slider a i {
-  border: 1px solid #777;
-  border-radius:50%;
-  font-size: 28px;
-  height: 50px;
-  padding: 8px;
-  position: absolute;
-  top: 50%;
-  width: 50px;
-  color:#777;
+    border: 1px solid #777;
+    border-radius: 50%;
+    font-size: 28px;
+    height: 50px;
+    padding: 8px;
+    position: absolute;
+    top: 50%;
+    width: 50px;
+    color: #777;
 }
 
 #carousel-slider a i:hover {
-  background:#bfbfbf;
-  color:#fff;
-  border: 1px solid #bfbfbf;
+    background: #bfbfbf;
+    color: #fff;
+    border: 1px solid #bfbfbf;
 }
 
-#carousel-slider 
+#carousel-slider
 .carousel-control {
-  width:inherit;
+    width: inherit;
 }
 
 #carousel-slider .carousel-control.left i {
-  left:-25px
+    left: -25px
 }
 
 #carousel-slider .carousel-control.right i {
-  right: -25px;
+    right: -25px;
 }
 
 #carousel-slider
-.carousel-control.left, 
+.carousel-control.left,
 #carousel-slider
 .carousel-control.right {
-  background: none;
+    background: none;
 }
 
