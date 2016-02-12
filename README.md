@@ -3,15 +3,19 @@ WP Corlate Themes is converted from Corlate Themes HTML, with some fiture includ
 
 [![](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=dony_cavalera_md%40yahoo%2ecom&lc=ID&item_name=Dony%20Wahyu%20Isp&item_number=wp_corlate&amount=5%2e00&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted)
 
-[![WP Corlate](https://github.com/dnaextrim/wp_corlate/blob/master/images/portfolio/wp_corlate.jpg?raw=true)](http://www.youtube.com/watch?v=GQB9Q89o2gU)
+![WP Corlate](https://github.com/dnaextrim/wp_corlate/blob/master/images/portfolio/wp_corlate.jpg?raw=true)
 
-Portfolio Page:
+##DEMO:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GQB9Q89o2gU" frameborder="0" allowfullscreen></iframe>
+
+## Portfolio Page:
 ![WP Corlate](https://github.com/dnaextrim/wp_corlate/blob/master/images/portfolio/portfolio_front.jpg?raw=true)
 
 ![WP Corlate](https://github.com/dnaextrim/wp_corlate/blob/master/images/portfolio/portfolio_project_front.jpg?raw=true)
 
 
-Portfolio Management:
+## Portfolio Management:
 ![WP Corlate](https://github.com/dnaextrim/wp_corlate/blob/master/images/portfolio/portfolio.jpg?raw=true)
 
 ![WP Corlate](https://github.com/dnaextrim/wp_corlate/blob/master/images/portfolio/portfolio_project.jpg?raw=true)
@@ -19,11 +23,11 @@ Portfolio Management:
 ![WP Corlate](https://github.com/dnaextrim/wp_corlate/blob/master/images/portfolio/portfolio_project_images.jpg?raw=true)
 
 
-Slider:
+## Slider:
 ![WP Corlate](https://github.com/dnaextrim/wp_corlate/blob/master/images/portfolio/slider_front.jpg?raw=true)
 
 
-Slider Management:
+## Slider Management:
 ![WP Corlate](https://github.com/dnaextrim/wp_corlate/blob/master/images/portfolio/slider_management.jpg?raw=true)
 
 ![WP Corlate](https://github.com/dnaextrim/wp_corlate/blob/master/images/portfolio/slider_preview.jpg?raw=true)
