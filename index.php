@@ -7,7 +7,7 @@
  * It is used to display a page when nothing more specific matches a query.
  * E.g., it puts together the home page when no home.php file exists.
  *
- * @link https://codex.wordpress.org/Template_Hierarchy
+ * @link    https://codex.wordpress.org/Template_Hierarchy
  *
  * @package wp_corlate
  */
@@ -15,7 +15,7 @@
 get_header(); ?>
 
 <?php
-if (get_option('wp_corlate_enable_slider') == true)
+if (get_option('wp_corlate_enable_slider') == TRUE)
     include("slider.php")
 ?>
 
@@ -58,7 +58,7 @@ if (get_option('wp_corlate_enable_slider') == true)
                     <?php get_template_part('template-parts/content', 'none'); ?>
 
                 <?php endif; ?>
-
+                <!--
                 <ul class="pagination pagination-lg">
                     <li><a href="#"><i class="fa fa-long-arrow-left"></i>Previous Page</a></li>
                     <li class="active"><a href="#">1</a></li>
@@ -68,15 +68,15 @@ if (get_option('wp_corlate_enable_slider') == true)
                     <li><a href="#">5</a></li>
                     <li><a href="#">Next Page<i class="fa fa-long-arrow-right"></i></a></li>
                 </ul>
-                /.pagination
+                <!-- /.pagination -->
             </div>
-            /.col-md-8
+            <!-- /.col-md-8 -->
 
             <aside class="col-md-4">
                 <?php get_sidebar(); ?>
             </aside>
         </div>
-        /.row
+        <!-- /.row -->
     </div>
 
 </section>
