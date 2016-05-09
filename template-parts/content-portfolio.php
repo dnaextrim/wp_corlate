@@ -98,4 +98,6 @@ if ( isset($portfolio->id) ) {
             </div>
         </div>
     </div>
-<? } ?>
+<?php
+}
+?>

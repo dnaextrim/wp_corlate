@@ -99,7 +99,8 @@ function theme_settings_footer_links()
                                     Template with some addtional fiture at Admin section and modification at portfolio
                                     section owned by <strong>Dony Wahyu Isp</strong> (<strong><a
                                             href="http://donywahyuisp.com"
-                                            target="_blank">www.donywahyuisp.com</a></strong>)
+                                            target="_blank">www.donywahyuisp.com</a></strong>)<br />
+                                    <strong>Sponsored by <a href="http://www.ferenz.com.br" target="_blank">www.ferenz.com.br</a></strong>
                                 </small>
                             </p>
                         </div>
@@ -152,7 +153,8 @@ function theme_settings_footer_links()
                                     HTML Template dengan penambahan beberapa fitur pada bagian Admin dan modifikasi pada
                                     bagian portfolio milik <strong>Dony Wahyu Isp</strong> (<strong><a
                                             href="http://donywahyuisp.com"
-                                            target="_blank">www.donywahyuisp.com</a></strong>)
+                                            target="_blank">www.donywahyuisp.com</a></strong>)<br />
+                                    <strong>Sponsored by <a href="http://www.ferenz.com.br" target="_blank">www.ferenz.com.br</a></strong>
                                 </small>
                             </p>
                         </div>
