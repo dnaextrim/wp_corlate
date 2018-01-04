@@ -1,5 +1,5 @@
-# wp_corlate (Wordpress Corlate Themes)
-WP Corlate Themes is converted from Corlate Themes HTML, with some fiture included such as slider management for add slide and custom animation, portfolio management, and footer link management.
+# wp_corlate (Wordpress Corlate Themes) Free Responsive
+WP Corlate Themes is converted from Corlate Themes HTML is Free Responsive Themes, with some fiture included such as slider management for add slide and custom animation, portfolio management, and footer link management.
 
 **Sponsored by [ferenz.com.br](http://ferenz.com.br)**
 
